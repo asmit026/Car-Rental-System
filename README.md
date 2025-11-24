@@ -58,6 +58,12 @@ The project follows full OOP principles:
 - Background threads used for loading data from the database to keep the GUI responsive
 - Synchronization implemented during booking to prevent double-booking of cars
 
+### 🔹 Database Operations (DAO Classes)
+Separate classes for database operations:
+- `CarDAO`
+- `CustomerDAO`
+- `BookingDAO`
+
 ### 🔹 JDBC Connectivity
 - JDBC API used to connect Java GUI with the database
 - `Connection`, `PreparedStatement`, `ResultSet` used for secure SQL communication
